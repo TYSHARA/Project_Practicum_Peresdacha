@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chess Game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  
+  <div class="game-info">
+    <h1>Таймер</h1>
+    <div class="mode-selection">
+      <label>Режим игры:</label>
+      <select id="game-mode">
+        <option value="bullet">Пуля</option>
+        <option value="blitz">Блиц</option>
+        <option value="rapid">Быстрые шахматы</option>
+      </select>
+    </div>
+    <div class="timer">
+      <p>Время: <span id="timer">10:00</span></p>
+    </div>
+  </div>
+  <script src="chess.js"></script>
+</body>
+</html>

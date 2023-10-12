@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+   
+  .game-info {
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .mode-selection {
+    margin-bottom: 10px;
+  }
+  
+  .timer {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #timer {
+    color: #ff0000;
+  }
+  
